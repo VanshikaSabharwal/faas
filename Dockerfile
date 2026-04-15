@@ -61,3 +61,4 @@ RUN apt-get update \
 	&& npm pack \
 	&& npm install -g --ignore-scripts /tmp/metacall-deploy/*.tgz \
 	&& rm -rf /tmp/metacall-deploy
+	
